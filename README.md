@@ -20,7 +20,7 @@ Curve objects take two arguments:
 
 ```lua
 --From the speed of 25 we further accelerate for a second
-speed = acceleration(25, 1)
+speed = acceleration(25, 1) --~128.6
 ```
 
 # Full example
