@@ -3,6 +3,8 @@ local M = {}
 --Keys and Values have to be strictly increasing/decreasing
 --Requires same number of Keys and Values
 M.Functable = function(keys, values)
+  if #keys ~= #values then error("tables have different lengths", 3) end
+
   local output = {}
 
   output.keys = keys
