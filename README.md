@@ -31,6 +31,8 @@ love.load = function()
 
   --From the speed of 25 we further accelerate for a second
   speed1 = acceleration(25, 1) --~128.6
+
+  --From the speed of 0 we accelerate for 1 second
   speed2 = acceleration(0,  1) --~114.3
 
   print(speed1, speed2)
