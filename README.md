@@ -1,2 +1,2 @@
-# curvy-love2d
-Module for creating curve objects for love2d.
+# Curvy
+Curvy is a module for creating curve objects for love2d.
