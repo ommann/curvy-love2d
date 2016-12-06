@@ -1,5 +1,7 @@
 # Curvy
-Curvy is a module for creating curve objects for love2d.
+Curvy is a module for creating curve objects in Lua.
+
+Curvy was initially created for creating video games, but can work in another context.
 
 # Usage
 Curve objects are best thought as an interace for strictly ascending or descending line diagrams.
