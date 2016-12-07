@@ -9,6 +9,8 @@ Curve objects are best thought as an interace for strictly ascending or descendi
 Curve objects are initialized with two tables given as arguments.
 First table represents the x-values and the second corresponding y-values.
 
+Make sure each x-value has y-value. Y-values must be strictly increasing or decreasing.
+
 ```lua
 --From 0 to 100 it takes 0.8 seconds
 acceleration = curve( {0, 0.8, 2}, {0, 100, 200} )
