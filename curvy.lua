@@ -49,6 +49,10 @@ end
 M._execute = function(self, key)
   local last = #self.keys
 
+  if #self.keys == 1 then
+    return self.values[1]
+  end
+
   if self.keys[1] < self.keys[2] then
     if key <= self.keys[1] then return self.values[1] end
     if key >= self.keys[last] then return self.values[last] end
